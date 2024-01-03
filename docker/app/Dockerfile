@@ -38,4 +38,4 @@ RUN chmod +x /usr/local/bin/linebot /usr/local/bin/sqlx
 
 EXPOSE 3000
 
-ENTRYPOINT ["/bin.sh", "-c", "sqlx db create && sqlx migrate run && /usr/local/bin/linebot"]
+ENTRYPOINT ["/bin/sh", "-c", "sqlx db create && sqlx migrate run && /usr/local/bin/linebot"]

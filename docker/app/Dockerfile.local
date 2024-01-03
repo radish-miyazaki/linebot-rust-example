@@ -20,4 +20,4 @@ RUN set -eux; \
 
 EXPOSE 3000
 
-ENTRYPOINT ["/bin.sh", "-c", "sqlx db create && sqlx migrate run && cargo watch -x run"]
+ENTRYPOINT ["/bin/sh", "-c", "sqlx db create && sqlx migrate run && cargo watch -x run"]
