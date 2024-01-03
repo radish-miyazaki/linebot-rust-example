@@ -3,5 +3,17 @@
 version = 3
 
 [[package]]
-name = "linebot-rust"
+name = "adapter"
+version = "0.1.0"
+
+[[package]]
+name = "application"
+version = "0.1.0"
+
+[[package]]
+name = "domain"
+version = "0.1.0"
+
+[[package]]
+name = "presentation"
 version = "0.1.0"
